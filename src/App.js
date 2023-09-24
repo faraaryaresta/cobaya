@@ -7,34 +7,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 function App() {
   return (
     <div className="App">
-      <nav className="fixed-top navbar navbar-expand-lg navbar-light bg-light pt-2 ps-4 pe-3 shadow-sm">
-            <div className="container">
-            <a className="navbar-brand ms-5 ps-5" to="/home"><span className="text-e">DayCare</span> SCHOOLS</a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            
-            <div className="collapse navbar-collapse justify-content-md-end" id="navbarNavDropdown">
-                <ul className="navbar-nav">
-                    <li className="nav-item">
-                        <a to="/home" className="nav-link">Home</a>
-                    </li>
-                    <li className="nav-item">
-                        <a to="/student" className="nav-link">Data Students</a>
-                    </li>
-                    <li className="nav-item">
-                        <a to="/contact" className="nav-link me-3">Contact</a>
-                    </li>
-                </ul>
-                <div className="d-flex">
-                    <a to="/add" className="btn btn-warning me-2">Add Students</a>
-                </div>
-                <div className="d-flex">
-                    <a to="/" className="btn  btn-success">LogOut</a>
-                </div>
-            </div>
-            </div>
-        </nav>
+      
 
       <div className="about">
           <h1 className="text-center title-sec pt-5">About Us</h1>
